@@ -1,0 +1,16 @@
+<app-toolbar-navigation></app-toolbar-navigation>
+
+<div class="grid">
+  <div class="col-12">
+    <p-card
+      header="Quantidade de Estados verificados"
+      styleClass="shadow-3 m-5 text-Indigo-800"
+    >
+      <p-chart
+        type="bar"
+        [data]="statusChartDatas"
+        [options]="statusChartOptions"
+      ></p-chart>
+    </p-card>
+  </div>
+</div>
